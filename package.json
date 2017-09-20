@@ -1,0 +1,30 @@
+{
+  "name": "xy-lodash",
+  "version": "0.0.1",
+  "description": "自己实现lodash",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/**/*.spec.js",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xylin123/xy-lodash.git"
+  },
+  "author": "xylin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xylin123/xy-lodash/issues"
+  },
+  "homepage": "https://github.com/xylin123/xy-lodash#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.3"
+  }
+}
