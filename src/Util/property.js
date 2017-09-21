@@ -1,6 +1,11 @@
 const isString = require('../Lang/isString');
 const isArray = require('../Lang/isArray');
-
+/**
+ * 
+ * 
+ * @param {string|array} selector 
+ * @returns 
+ */
 function property(selector) {
   let arr;
   if (isString(selector)) {
