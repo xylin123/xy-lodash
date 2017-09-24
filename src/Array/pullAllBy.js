@@ -20,11 +20,11 @@ function pullAllBy(array, values, iteratee) {
   }
   if (isFunction(iteratee)) {
     const mid = array.map(iteratee);
-    values.forEach(val => {
+    values.forEach((val) => {
       let index = -1;
       do {
         index = mid.indexOf(iteratee(val));
-        if (index > -1) { 
+        if (index > -1) {
           array.splice(index, 1);
           mid.splice(index, 1);
         }

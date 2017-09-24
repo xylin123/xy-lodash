@@ -6,14 +6,14 @@
  * @returns 
  */
 function pullAll(array, values) {
-  values.forEach(val => {
+  values.forEach((val) => {
     let index = -1;
     do {
       index = array.indexOf(val, index + 1);
-      if (index > -1) { 
+      if (index > -1) {
         array.splice(index, 1);
-      };
-    } while(index > -1);
+      }
+    } while (index > -1);
   });
   return array;
 }
